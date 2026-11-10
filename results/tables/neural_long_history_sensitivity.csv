@@ -1,0 +1,361 @@
+group,site,kind,model_or_contrast,metric,estimate,ci_lower,ci_upper,bootstrap_draws
+all_completed_reference,DFCI,model,Calendar-blind,released_log_score,-4.71246509518999,-4.781896742715409,-4.64286933918115,20000
+all_completed_reference,DFCI,model,Calendar-blind,seven_origin_mean_log_score,-4.71246509518999,-4.781896742715409,-4.64286933918115,20000
+all_completed_reference,DFCI,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+all_completed_reference,DFCI,model,Absolute-phase,released_log_score,-4.504123370444161,-4.574022714768379,-4.435356334276703,20000
+all_completed_reference,DFCI,model,Absolute-phase,seven_origin_mean_log_score,-4.505015504063336,-4.575053458050631,-4.436261982529151,20000
+all_completed_reference,DFCI,model,Absolute-phase,patient_score_range,0.1058991402499616,0.099578034278315,0.1125102106809601,20000
+all_completed_reference,DFCI,model,Relative-phase,released_log_score,-4.496658232976873,-4.5669639544122935,-4.427235989420145,20000
+all_completed_reference,DFCI,model,Relative-phase,seven_origin_mean_log_score,-4.496658232976873,-4.5669639544122935,-4.427235989420145,20000
+all_completed_reference,DFCI,model,Relative-phase,patient_score_range,3.542729268412865e-16,3.3573665190424063e-16,3.737208218572029e-16,20000
+all_completed_reference,DFCI,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2083417247458294,0.1864854579742292,0.2306276227499857,20000
+all_completed_reference,DFCI,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2074495911266538,0.1859045682516627,0.2295940869083004,20000
+all_completed_reference,DFCI,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.1058991402499616,0.099578034278315,0.1125102106809601,20000
+all_completed_reference,DFCI,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2158068622131166,0.1941910748938541,0.2380692848792282,20000
+all_completed_reference,DFCI,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2158068622131166,0.1941910748938541,0.2380692848792282,20000
+all_completed_reference,DFCI,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.542729268412865e-16,3.3573665190424063e-16,3.737208218572029e-16,20000
+all_completed_reference,DFCI,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0074651374672871,0.0010932440824397,0.0135402041849566,20000
+all_completed_reference,DFCI,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0083572710864627,0.0024354584897648,0.0139428873168421,20000
+all_completed_reference,DFCI,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.1058991402499612,-0.1125102106809597,-0.0995780342783147,20000
+all_completed_reference,MSK,model,Calendar-blind,released_log_score,-4.618128772751868,-4.688919835723283,-4.548741142192167,20000
+all_completed_reference,MSK,model,Calendar-blind,seven_origin_mean_log_score,-4.618128772751868,-4.688919835723283,-4.548741142192167,20000
+all_completed_reference,MSK,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+all_completed_reference,MSK,model,Absolute-phase,released_log_score,-4.449297582255211,-4.520434884860127,-4.3809185564757005,20000
+all_completed_reference,MSK,model,Absolute-phase,seven_origin_mean_log_score,-4.44860431856253,-4.519748204243175,-4.380457696909157,20000
+all_completed_reference,MSK,model,Absolute-phase,patient_score_range,0.1357506713160856,0.1292135599022222,0.1424816627527208,20000
+all_completed_reference,MSK,model,Relative-phase,released_log_score,-4.4251136860159725,-4.495711427312378,-4.356605934383943,20000
+all_completed_reference,MSK,model,Relative-phase,seven_origin_mean_log_score,-4.4251136860159725,-4.4957114273123775,-4.356605934383942,20000
+all_completed_reference,MSK,model,Relative-phase,patient_score_range,3.508167693244553e-16,3.349858113807261e-16,3.669227130636353e-16,20000
+all_completed_reference,MSK,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.1688311904966575,0.1497492104016337,0.1885256803752742,20000
+all_completed_reference,MSK,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.1695244541893386,0.1505887021361572,0.1891384647781004,20000
+all_completed_reference,MSK,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.1357506713160856,0.1292135599022222,0.1424816627527208,20000
+all_completed_reference,MSK,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.1930150867358957,0.174798109482633,0.2119844131821822,20000
+all_completed_reference,MSK,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.1930150867358957,0.174798109482633,0.2119844131821823,20000
+all_completed_reference,MSK,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.508167693244553e-16,3.349858113807261e-16,3.669227130636353e-16,20000
+all_completed_reference,MSK,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0241838962392382,0.0127038612561497,0.0354918882778087,20000
+all_completed_reference,MSK,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0234906325465571,0.0125293704589969,0.0344927238327829,20000
+all_completed_reference,MSK,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.1357506713160852,-0.1424816627527204,-0.1292135599022219,20000
+all_completed_reference,UHN,model,Calendar-blind,released_log_score,-4.813991611706966,-5.004355393485205,-4.631886058173524,20000
+all_completed_reference,UHN,model,Calendar-blind,seven_origin_mean_log_score,-4.813991611706966,-5.004355393485205,-4.631886058173524,20000
+all_completed_reference,UHN,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+all_completed_reference,UHN,model,Absolute-phase,released_log_score,-4.6011585436104445,-4.818169245718865,-4.3910781869506925,20000
+all_completed_reference,UHN,model,Absolute-phase,seven_origin_mean_log_score,-4.599689992842068,-4.8156468407571,-4.390374247126942,20000
+all_completed_reference,UHN,model,Absolute-phase,patient_score_range,0.0661702454406165,0.0595536174767305,0.0734548811576906,20000
+all_completed_reference,UHN,model,Relative-phase,released_log_score,-4.597674660011977,-4.816403029507205,-4.385257649988668,20000
+all_completed_reference,UHN,model,Relative-phase,seven_origin_mean_log_score,-4.597674660011976,-4.816403029507205,-4.385257649988668,20000
+all_completed_reference,UHN,model,Relative-phase,patient_score_range,3.5957768749071736e-16,2.971225958872585e-16,4.279405113100604e-16,20000
+all_completed_reference,UHN,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2128330680965211,0.143183578607101,0.2863261946513196,20000
+all_completed_reference,UHN,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2143016188648978,0.1449143189889172,0.2875983903157141,20000
+all_completed_reference,UHN,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.0661702454406165,0.0595536174767305,0.0734548811576906,20000
+all_completed_reference,UHN,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2163169516949885,0.1480176692879085,0.2886690337783139,20000
+all_completed_reference,UHN,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2163169516949894,0.1480176692879094,0.288669033778313,20000
+all_completed_reference,UHN,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.5957768749071736e-16,2.971225958872585e-16,4.279405113100604e-16,20000
+all_completed_reference,UHN,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0034838835984674,-0.0088711653263766,0.015358080804583,20000
+all_completed_reference,UHN,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0020153328300915,-0.010697991793053,0.0140387051881179,20000
+all_completed_reference,UHN,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.0661702454406161,-0.0734548811576902,-0.0595536174767302,20000
+all_completed_reference,VICC,model,Calendar-blind,released_log_score,-4.16591345109265,-4.254934555175658,-4.080089218766651,20000
+all_completed_reference,VICC,model,Calendar-blind,seven_origin_mean_log_score,-4.16591345109265,-4.254934555175658,-4.080089218766651,20000
+all_completed_reference,VICC,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+all_completed_reference,VICC,model,Absolute-phase,released_log_score,-4.005903765211894,-4.099053247519632,-3.916658122947962,20000
+all_completed_reference,VICC,model,Absolute-phase,seven_origin_mean_log_score,-4.005832744735536,-4.0986479061991385,-3.9169675254020606,20000
+all_completed_reference,VICC,model,Absolute-phase,patient_score_range,0.0827150066724431,0.0760422516558216,0.0898755327588379,20000
+all_completed_reference,VICC,model,Relative-phase,released_log_score,-3.988299052820438,-4.080310800353453,-3.900757685809938,20000
+all_completed_reference,VICC,model,Relative-phase,seven_origin_mean_log_score,-3.988299052820438,-4.080310800353453,-3.900757685809938,20000
+all_completed_reference,VICC,model,Relative-phase,patient_score_range,3.3029134982598413e-16,3.0544350117961147e-16,3.5501033329985517e-16,20000
+all_completed_reference,VICC,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.1600096858807562,0.1273507428464817,0.1945477126393867,20000
+all_completed_reference,VICC,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.1600807063571139,0.1278605566342925,0.1942964515211738,20000
+all_completed_reference,VICC,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.0827150066724431,0.0760422516558216,0.0898755327588379,20000
+all_completed_reference,VICC,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.1776143982722122,0.1453565491965457,0.2114852479373978,20000
+all_completed_reference,VICC,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.1776143982722122,0.1453565491965457,0.2114852479373978,20000
+all_completed_reference,VICC,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.3029134982598413e-16,3.0544350117961147e-16,3.5501033329985517e-16,20000
+all_completed_reference,VICC,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.017604712391456,0.0083561342415628,0.0271474260886235,20000
+all_completed_reference,VICC,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0175336919150983,0.0086046328101925,0.0266181963246259,20000
+all_completed_reference,VICC,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.0827150066724428,-0.0898755327588376,-0.0760422516558213,20000
+all_completed_reference,ALL,model,Calendar-blind,released_log_score,-4.5776247326853685,-4.635594895787099,-4.521929503190533,20000
+all_completed_reference,ALL,model,Calendar-blind,seven_origin_mean_log_score,-4.5776247326853685,-4.635594895787099,-4.521929503190532,20000
+all_completed_reference,ALL,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+all_completed_reference,ALL,model,Absolute-phase,released_log_score,-4.390120815380428,-4.453454236358565,-4.328705582560029,20000
+all_completed_reference,ALL,model,Absolute-phase,seven_origin_mean_log_score,-4.389785640050867,-4.452944257273875,-4.328445534235882,20000
+all_completed_reference,ALL,model,Absolute-phase,patient_score_range,0.0976337659197767,0.0944839893405912,0.1008624045450417,20000
+all_completed_reference,ALL,model,Relative-phase,released_log_score,-4.376936407956316,-4.4407309355688565,-4.315117983216243,20000
+all_completed_reference,ALL,model,Relative-phase,seven_origin_mean_log_score,-4.376936407956315,-4.4407309355688565,-4.315117983216243,20000
+all_completed_reference,ALL,model,Relative-phase,patient_score_range,3.487396833706108e-16,3.3194267716192714e-16,3.6691573436961374e-16,20000
+all_completed_reference,ALL,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.1875039173049408,0.166923503239679,0.208683011539906,20000
+all_completed_reference,ALL,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.1878390926345012,0.1675186692576339,0.2089818015658984,20000
+all_completed_reference,ALL,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.0976337659197767,0.0944839893405912,0.1008624045450417,20000
+all_completed_reference,ALL,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2006883247290529,0.1805531942239047,0.221484320793105,20000
+all_completed_reference,ALL,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2006883247290538,0.1805531942239047,0.221484320793105,20000
+all_completed_reference,ALL,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.487396833706108e-16,3.3194267716192714e-16,3.6691573436961374e-16,20000
+all_completed_reference,ALL,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.013184407424112,0.008586933922812,0.0176396682688367,20000
+all_completed_reference,ALL,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0128492320945525,0.0083341685241274,0.0171540815404001,20000
+all_completed_reference,ALL,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.0976337659197763,-0.1008624045450413,-0.0944839893405908,20000
+patients_ge8_completed,DFCI,model,Calendar-blind,released_log_score,-4.684296336783206,-4.74973356941484,-4.6185740757349,20000
+patients_ge8_completed,DFCI,model,Calendar-blind,seven_origin_mean_log_score,-4.684296336783206,-4.749733569414841,-4.6185740757349,20000
+patients_ge8_completed,DFCI,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+patients_ge8_completed,DFCI,model,Absolute-phase,released_log_score,-4.457812290831279,-4.524737748104039,-4.391503894457349,20000
+patients_ge8_completed,DFCI,model,Absolute-phase,seven_origin_mean_log_score,-4.45851688038428,-4.525100317098051,-4.3923117174992825,20000
+patients_ge8_completed,DFCI,model,Absolute-phase,patient_score_range,0.0961928910317579,0.0907509939879968,0.1020734292707065,20000
+patients_ge8_completed,DFCI,model,Relative-phase,released_log_score,-4.450451514553065,-4.516694771259927,-4.383882088639077,20000
+patients_ge8_completed,DFCI,model,Relative-phase,seven_origin_mean_log_score,-4.450451514553066,-4.516694771259928,-4.383882088639078,20000
+patients_ge8_completed,DFCI,model,Relative-phase,patient_score_range,3.5912828945795276e-16,3.400082108071037e-16,3.7880430036783053e-16,20000
+patients_ge8_completed,DFCI,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2264840459519268,0.2033425352823904,0.250142236263071,20000
+patients_ge8_completed,DFCI,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2257794563989259,0.2028403024551588,0.2491956836716276,20000
+patients_ge8_completed,DFCI,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.0961928910317579,0.0907509939879968,0.1020734292707065,20000
+patients_ge8_completed,DFCI,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2338448222301403,0.2110764116724859,0.2573744562214545,20000
+patients_ge8_completed,DFCI,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2338448222301394,0.2110764116724859,0.2573744562214545,20000
+patients_ge8_completed,DFCI,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.5912828945795276e-16,3.400082108071037e-16,3.7880430036783053e-16,20000
+patients_ge8_completed,DFCI,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0073607762782135,0.0001836868877524,0.0141935002818278,20000
+patients_ge8_completed,DFCI,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0080653658312135,0.0013840079766429,0.01451576820734,20000
+patients_ge8_completed,DFCI,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.0961928910317576,-0.1020734292707061,-0.0907509939879965,20000
+patients_ge8_completed,MSK,model,Calendar-blind,released_log_score,-4.396197727012819,-4.45491344580486,-4.33936411625668,20000
+patients_ge8_completed,MSK,model,Calendar-blind,seven_origin_mean_log_score,-4.396197727012819,-4.45491344580486,-4.3393641162566805,20000
+patients_ge8_completed,MSK,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+patients_ge8_completed,MSK,model,Absolute-phase,released_log_score,-4.239589689068438,-4.299830572528494,-4.181525415854082,20000
+patients_ge8_completed,MSK,model,Absolute-phase,seven_origin_mean_log_score,-4.238781278590827,-4.298650389584198,-4.180972378948588,20000
+patients_ge8_completed,MSK,model,Absolute-phase,patient_score_range,0.1160488450621485,0.1112330193056718,0.1210938969967986,20000
+patients_ge8_completed,MSK,model,Relative-phase,released_log_score,-4.215468069627105,-4.275369082319397,-4.157576983675927,20000
+patients_ge8_completed,MSK,model,Relative-phase,seven_origin_mean_log_score,-4.215468069627105,-4.275369082319397,-4.157576983675927,20000
+patients_ge8_completed,MSK,model,Relative-phase,patient_score_range,3.499518898631912e-16,3.343501584491826e-16,3.658765310240273e-16,20000
+patients_ge8_completed,MSK,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.1566080379443803,0.1396999636593394,0.1738442748337445,20000
+patients_ge8_completed,MSK,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.1574164484219915,0.1406478430365574,0.174567365555673,20000
+patients_ge8_completed,MSK,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.1160488450621485,0.1112330193056718,0.1210938969967986,20000
+patients_ge8_completed,MSK,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.1807296573857133,0.1643875314976066,0.1972803197480724,20000
+patients_ge8_completed,MSK,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.1807296573857133,0.1643875314976066,0.1972803197480724,20000
+patients_ge8_completed,MSK,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.499518898631912e-16,3.343501584491826e-16,3.658765310240273e-16,20000
+patients_ge8_completed,MSK,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0241216194413329,0.0152939688518144,0.0329230791822726,20000
+patients_ge8_completed,MSK,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0233132089637218,0.0149245810265568,0.0319117045082414,20000
+patients_ge8_completed,MSK,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.1160488450621482,-0.1210938969967983,-0.1112330193056714,20000
+patients_ge8_completed,UHN,model,Calendar-blind,released_log_score,-4.755574127322181,-4.938434180238148,-4.577059017041791,20000
+patients_ge8_completed,UHN,model,Calendar-blind,seven_origin_mean_log_score,-4.755574127322181,-4.938434180238148,-4.577059017041791,20000
+patients_ge8_completed,UHN,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+patients_ge8_completed,UHN,model,Absolute-phase,released_log_score,-4.518072890338086,-4.720022868964135,-4.316484176595367,20000
+patients_ge8_completed,UHN,model,Absolute-phase,seven_origin_mean_log_score,-4.516677335310956,-4.717604921735916,-4.315628908065183,20000
+patients_ge8_completed,UHN,model,Absolute-phase,patient_score_range,0.0635557624842892,0.0570670371927613,0.0706966620420988,20000
+patients_ge8_completed,UHN,model,Relative-phase,released_log_score,-4.515007574886718,-4.718901402098912,-4.310333249974346,20000
+patients_ge8_completed,UHN,model,Relative-phase,seven_origin_mean_log_score,-4.515007574886718,-4.718901402098912,-4.310333249974346,20000
+patients_ge8_completed,UHN,model,Relative-phase,patient_score_range,3.668815433009667e-16,3.0012303463069593e-16,4.3915488529617295e-16,20000
+patients_ge8_completed,UHN,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2375012369840954,0.1679112427184423,0.3127255533802746,20000
+patients_ge8_completed,UHN,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2388967920112259,0.1692104952771255,0.3138172746486637,20000
+patients_ge8_completed,UHN,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.0635557624842892,0.0570670371927613,0.0706966620420988,20000
+patients_ge8_completed,UHN,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2405665524354638,0.1721890192885013,0.314149200420549,20000
+patients_ge8_completed,UHN,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2405665524354638,0.1721890192885004,0.314149200420549,20000
+patients_ge8_completed,UHN,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.668815433009667e-16,3.0012303463069593e-16,4.3915488529617295e-16,20000
+patients_ge8_completed,UHN,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0030653154513684,-0.0096228251728728,0.0152293224337243,20000
+patients_ge8_completed,UHN,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0016697604242379,-0.0115684173750119,0.0137309125042259,20000
+patients_ge8_completed,UHN,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.0635557624842889,-0.0706966620420983,-0.0570670371927609,20000
+patients_ge8_completed,VICC,model,Calendar-blind,released_log_score,-4.171495514766948,-4.249909742478865,-4.09690310986054,20000
+patients_ge8_completed,VICC,model,Calendar-blind,seven_origin_mean_log_score,-4.171495514766948,-4.249909742478865,-4.09690310986054,20000
+patients_ge8_completed,VICC,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+patients_ge8_completed,VICC,model,Absolute-phase,released_log_score,-3.971532927504817,-4.05724222093728,-3.889496360411445,20000
+patients_ge8_completed,VICC,model,Absolute-phase,seven_origin_mean_log_score,-3.972590254378333,-4.057956402010099,-3.8905825455254175,20000
+patients_ge8_completed,VICC,model,Absolute-phase,patient_score_range,0.076123770139173,0.0697847913327446,0.0830128977314682,20000
+patients_ge8_completed,VICC,model,Relative-phase,released_log_score,-3.956243359613034,-4.040867032420239,-3.874993994680525,20000
+patients_ge8_completed,VICC,model,Relative-phase,seven_origin_mean_log_score,-3.956243359613034,-4.040867032420239,-3.874993994680525,20000
+patients_ge8_completed,VICC,model,Relative-phase,patient_score_range,3.341959477515725e-16,3.0683915811746083e-16,3.610604152843048e-16,20000
+patients_ge8_completed,VICC,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.1999625872621306,0.1644922537466643,0.2379781564390602,20000
+patients_ge8_completed,VICC,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.198905260388615,0.1638590718312061,0.2365018898469876,20000
+patients_ge8_completed,VICC,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.076123770139173,0.0697847913327446,0.0830128977314682,20000
+patients_ge8_completed,VICC,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2152521551539132,0.1800690689070926,0.2528859440553405,20000
+patients_ge8_completed,VICC,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2152521551539132,0.1800690689070926,0.2528859440553413,20000
+patients_ge8_completed,VICC,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.341959477515725e-16,3.0683915811746083e-16,3.610604152843048e-16,20000
+patients_ge8_completed,VICC,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0152895678917825,0.0060040096803205,0.0252431136796502,20000
+patients_ge8_completed,VICC,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0163468947652982,0.0071908646593738,0.0261341680236756,20000
+patients_ge8_completed,VICC,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.0761237701391727,-0.0830128977314679,-0.0697847913327442,20000
+patients_ge8_completed,ALL,model,Calendar-blind,released_log_score,-4.5018909264712885,-4.556202743191347,-4.448558599961635,20000
+patients_ge8_completed,ALL,model,Calendar-blind,seven_origin_mean_log_score,-4.5018909264712885,-4.556202743191347,-4.448558599961636,20000
+patients_ge8_completed,ALL,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+patients_ge8_completed,ALL,model,Absolute-phase,released_log_score,-4.296751949435655,-4.35574462930364,-4.237800952869673,20000
+patients_ge8_completed,ALL,model,Absolute-phase,seven_origin_mean_log_score,-4.296641437166099,-4.355449664331872,-4.237935680002591,20000
+patients_ge8_completed,ALL,model,Absolute-phase,patient_score_range,0.0879803171793422,0.0851829596778191,0.0908495168292706,20000
+patients_ge8_completed,ALL,model,Relative-phase,released_log_score,-4.28429262966998,-4.343720473824054,-4.22464202982619,20000
+patients_ge8_completed,ALL,model,Relative-phase,seven_origin_mean_log_score,-4.284292629669981,-4.343720473824054,-4.22464202982619,20000
+patients_ge8_completed,ALL,model,Relative-phase,patient_score_range,3.5253941759342086e-16,3.3495315204579043e-16,3.714368878078671e-16,20000
+patients_ge8_completed,ALL,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2051389770356335,0.1845745874844286,0.2269646976208364,20000
+patients_ge8_completed,ALL,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2052494893051895,0.1847302727510653,0.2269489680545043,20000
+patients_ge8_completed,ALL,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.0879803171793422,0.0851829596778191,0.0908495168292706,20000
+patients_ge8_completed,ALL,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2175982968013086,0.1970913617930887,0.2390919692919261,20000
+patients_ge8_completed,ALL,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2175982968013077,0.1970913617930896,0.239091969291927,20000
+patients_ge8_completed,ALL,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.5253941759342086e-16,3.3495315204579043e-16,3.714368878078671e-16,20000
+patients_ge8_completed,ALL,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.012459319765675,0.0078707554834553,0.0168878712588088,20000
+patients_ge8_completed,ALL,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0123488074961182,0.0078470182552871,0.0166126849149211,20000
+patients_ge8_completed,ALL,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.0879803171793418,-0.0908495168292703,-0.0851829596778187,20000
+patients_ge12_completed,DFCI,model,Calendar-blind,released_log_score,-4.60880178530416,-4.671989685645881,-4.5456370732871365,20000
+patients_ge12_completed,DFCI,model,Calendar-blind,seven_origin_mean_log_score,-4.60880178530416,-4.671989685645881,-4.545637073287136,20000
+patients_ge12_completed,DFCI,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+patients_ge12_completed,DFCI,model,Absolute-phase,released_log_score,-4.377375749326872,-4.4447211767289385,-4.3111965059002735,20000
+patients_ge12_completed,DFCI,model,Absolute-phase,seven_origin_mean_log_score,-4.377691071276311,-4.445197460487552,-4.31160544142646,20000
+patients_ge12_completed,DFCI,model,Absolute-phase,patient_score_range,0.0848145691998553,0.0802645722189589,0.0896713305870891,20000
+patients_ge12_completed,DFCI,model,Relative-phase,released_log_score,-4.370447489169076,-4.43757521709581,-4.304399271996969,20000
+patients_ge12_completed,DFCI,model,Relative-phase,seven_origin_mean_log_score,-4.370447489169076,-4.43757521709581,-4.30439927199697,20000
+patients_ge12_completed,DFCI,model,Relative-phase,patient_score_range,3.599844222745724e-16,3.395262792684544e-16,3.8052354790401533e-16,20000
+patients_ge12_completed,DFCI,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2314260359772877,0.2080673348660665,0.2556749641218138,20000
+patients_ge12_completed,DFCI,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2311107140278494,0.2078156538122068,0.2551960470518932,20000
+patients_ge12_completed,DFCI,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.0848145691998553,0.0802645722189589,0.0896713305870891,20000
+patients_ge12_completed,DFCI,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2383542961350837,0.2146696598235878,0.2627216546234158,20000
+patients_ge12_completed,DFCI,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2383542961350837,0.2146696598235878,0.2627216546234158,20000
+patients_ge12_completed,DFCI,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.599844222745724e-16,3.395262792684544e-16,3.8052354790401533e-16,20000
+patients_ge12_completed,DFCI,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.006928260157796,0.000608085342218,0.0130470292867286,20000
+patients_ge12_completed,DFCI,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0072435821072343,0.001368167247798,0.012848637469078,20000
+patients_ge12_completed,DFCI,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.084814569199855,-0.0896713305870888,-0.0802645722189586,20000
+patients_ge12_completed,MSK,model,Calendar-blind,released_log_score,-4.297234976473795,-4.351690394929529,-4.244021372969139,20000
+patients_ge12_completed,MSK,model,Calendar-blind,seven_origin_mean_log_score,-4.297234976473795,-4.351690394929528,-4.244021372969139,20000
+patients_ge12_completed,MSK,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+patients_ge12_completed,MSK,model,Absolute-phase,released_log_score,-4.14649560579558,-4.203916853381399,-4.090527487603589,20000
+patients_ge12_completed,MSK,model,Absolute-phase,seven_origin_mean_log_score,-4.145673109021529,-4.202848992617209,-4.089982324535724,20000
+patients_ge12_completed,MSK,model,Absolute-phase,patient_score_range,0.1070189484397025,0.1025523062035231,0.1117764888579503,20000
+patients_ge12_completed,MSK,model,Relative-phase,released_log_score,-4.119558690445767,-4.176366130118771,-4.063920705152547,20000
+patients_ge12_completed,MSK,model,Relative-phase,seven_origin_mean_log_score,-4.119558690445767,-4.176366130118771,-4.063920705152547,20000
+patients_ge12_completed,MSK,model,Relative-phase,patient_score_range,3.489775865613134e-16,3.328075992112185e-16,3.656802280094527e-16,20000
+patients_ge12_completed,MSK,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.1507393706782149,0.1337674639592418,0.1681660219450892,20000
+patients_ge12_completed,MSK,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.1515618674522656,0.1348201907896808,0.1688058240276437,20000
+patients_ge12_completed,MSK,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.1070189484397025,0.1025523062035231,0.1117764888579503,20000
+patients_ge12_completed,MSK,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.1776762860280278,0.1609696556433167,0.1946032626462936,20000
+patients_ge12_completed,MSK,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.1776762860280278,0.1609696556433167,0.1946032626462936,20000
+patients_ge12_completed,MSK,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.489775865613134e-16,3.328075992112185e-16,3.656802280094527e-16,20000
+patients_ge12_completed,MSK,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0269369153498129,0.0178536943214599,0.0361428355532128,20000
+patients_ge12_completed,MSK,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0261144185757622,0.0173025459036165,0.0351084276428956,20000
+patients_ge12_completed,MSK,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.1070189484397021,-0.1117764888579499,-0.1025523062035227,20000
+patients_ge12_completed,UHN,model,Calendar-blind,released_log_score,-4.650106211770442,-4.82634444058407,-4.477125900443008,20000
+patients_ge12_completed,UHN,model,Calendar-blind,seven_origin_mean_log_score,-4.650106211770442,-4.82634444058407,-4.477125900443009,20000
+patients_ge12_completed,UHN,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+patients_ge12_completed,UHN,model,Absolute-phase,released_log_score,-4.422246017025566,-4.63304316477762,-4.212912226908146,20000
+patients_ge12_completed,UHN,model,Absolute-phase,seven_origin_mean_log_score,-4.420478054969018,-4.6302696893475925,-4.212277312439396,20000
+patients_ge12_completed,UHN,model,Absolute-phase,patient_score_range,0.0606588661431318,0.0540975777781511,0.0681743233639687,20000
+patients_ge12_completed,UHN,model,Relative-phase,released_log_score,-4.413885358749583,-4.626442337709545,-4.203188016177422,20000
+patients_ge12_completed,UHN,model,Relative-phase,seven_origin_mean_log_score,-4.413885358749583,-4.626442337709545,-4.203188016177422,20000
+patients_ge12_completed,UHN,model,Relative-phase,patient_score_range,3.72377026333534e-16,3.0298852473458167e-16,4.490261590446721e-16,20000
+patients_ge12_completed,UHN,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2278601947448759,0.1585144580989701,0.3042897279143326,20000
+patients_ge12_completed,UHN,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2296281568014242,0.1613657589803614,0.3046022642537445,20000
+patients_ge12_completed,UHN,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.0606588661431318,0.0540975777781511,0.0681743233639687,20000
+patients_ge12_completed,UHN,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2362208530208596,0.1669738075601902,0.3122737889571075,20000
+patients_ge12_completed,UHN,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2362208530208596,0.1669738075601901,0.3122737889571066,20000
+patients_ge12_completed,UHN,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.72377026333534e-16,3.0298852473458167e-16,4.490261590446721e-16,20000
+patients_ge12_completed,UHN,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0083606582759836,-0.0020856817603828,0.0185944297195519,20000
+patients_ge12_completed,UHN,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0065926962194353,-0.0043447172091504,0.0164173383639753,20000
+patients_ge12_completed,UHN,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.0606588661431314,-0.0681743233639683,-0.0540975777781507,20000
+patients_ge12_completed,VICC,model,Calendar-blind,released_log_score,-4.17346287898708,-4.250035866943652,-4.098969663696471,20000
+patients_ge12_completed,VICC,model,Calendar-blind,seven_origin_mean_log_score,-4.17346287898708,-4.250035866943652,-4.098969663696471,20000
+patients_ge12_completed,VICC,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+patients_ge12_completed,VICC,model,Absolute-phase,released_log_score,-3.9377994159455434,-4.022581530723734,-3.854932782320574,20000
+patients_ge12_completed,VICC,model,Absolute-phase,seven_origin_mean_log_score,-3.9391094962011857,-4.0234226695551305,-3.856680787572039,20000
+patients_ge12_completed,VICC,model,Absolute-phase,patient_score_range,0.0702213652828515,0.0647375343563567,0.0762780552621076,20000
+patients_ge12_completed,VICC,model,Relative-phase,released_log_score,-3.922088057482312,-4.005700618571924,-3.840065763639629,20000
+patients_ge12_completed,VICC,model,Relative-phase,seven_origin_mean_log_score,-3.922088057482312,-4.005700618571924,-3.840065763639629,20000
+patients_ge12_completed,VICC,model,Relative-phase,patient_score_range,3.3438498038481884e-16,3.028434450765194e-16,3.660173000836738e-16,20000
+patients_ge12_completed,VICC,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2356634630415377,0.1964351424948369,0.2773485444896725,20000
+patients_ge12_completed,VICC,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2343533827858945,0.1951509353291476,0.2755723364350099,20000
+patients_ge12_completed,VICC,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.0702213652828515,0.0647375343563567,0.0762780552621076,20000
+patients_ge12_completed,VICC,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.251374821504768,0.2119984087467658,0.2929433700011473,20000
+patients_ge12_completed,VICC,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.251374821504768,0.2119984087467649,0.2929433700011482,20000
+patients_ge12_completed,VICC,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.3438498038481884e-16,3.028434450765194e-16,3.660173000836738e-16,20000
+patients_ge12_completed,VICC,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0157113584632302,0.0055787888834004,0.0267171247880078,20000
+patients_ge12_completed,VICC,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0170214387188734,0.0070349696684011,0.0278653684820348,20000
+patients_ge12_completed,VICC,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.0702213652828511,-0.0762780552621073,-0.0647375343563563,20000
+patients_ge12_completed,ALL,model,Calendar-blind,released_log_score,-4.4324014631338695,-4.484734096955203,-4.3807987267050175,20000
+patients_ge12_completed,ALL,model,Calendar-blind,seven_origin_mean_log_score,-4.4324014631338695,-4.484734096955203,-4.3807987267050175,20000
+patients_ge12_completed,ALL,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+patients_ge12_completed,ALL,model,Absolute-phase,released_log_score,-4.22097919702339,-4.281319004788453,-4.1601371479604135,20000
+patients_ge12_completed,ALL,model,Absolute-phase,seven_origin_mean_log_score,-4.220737932867011,-4.281088975302238,-4.160147539179721,20000
+patients_ge12_completed,ALL,model,Absolute-phase,patient_score_range,0.0806784372663853,0.0781212552547157,0.0832923397782504,20000
+patients_ge12_completed,ALL,model,Relative-phase,released_log_score,-4.206494898961685,-4.267232410899857,-4.145557437887452,20000
+patients_ge12_completed,ALL,model,Relative-phase,seven_origin_mean_log_score,-4.206494898961685,-4.267232410899857,-4.145557437887451,20000
+patients_ge12_completed,ALL,model,Relative-phase,patient_score_range,3.539310038885596e-16,3.349451379619831e-16,3.7407738516682375e-16,20000
+patients_ge12_completed,ALL,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2114222661104792,0.1901948203744382,0.2339338052587148,20000
+patients_ge12_completed,ALL,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2116635302668585,0.1906287944515762,0.2339316366004569,20000
+patients_ge12_completed,ALL,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.0806784372663853,0.0781212552547157,0.0832923397782504,20000
+patients_ge12_completed,ALL,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2259065641721847,0.2046852306368673,0.2483338505641453,20000
+patients_ge12_completed,ALL,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2259065641721847,0.2046852306368682,0.2483338505641453,20000
+patients_ge12_completed,ALL,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.539310038885596e-16,3.349451379619831e-16,3.7407738516682375e-16,20000
+patients_ge12_completed,ALL,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0144842980617054,0.0101557931157226,0.0187551403737546,20000
+patients_ge12_completed,ALL,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0142430339053261,0.0100110924839137,0.0182961157813239,20000
+patients_ge12_completed,ALL,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.0806784372663849,-0.08329233977825,-0.0781212552547154,20000
+landmark_ge6_prior,DFCI,model,Calendar-blind,released_log_score,-4.765422607162809,-4.8445803510262895,-4.685773082321208,20000
+landmark_ge6_prior,DFCI,model,Calendar-blind,seven_origin_mean_log_score,-4.765422607162809,-4.844580351026289,-4.685773082321208,20000
+landmark_ge6_prior,DFCI,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+landmark_ge6_prior,DFCI,model,Absolute-phase,released_log_score,-4.500468215704637,-4.583445661312028,-4.418672988070026,20000
+landmark_ge6_prior,DFCI,model,Absolute-phase,seven_origin_mean_log_score,-4.503022569482098,-4.586096907624762,-4.42083987790668,20000
+landmark_ge6_prior,DFCI,model,Absolute-phase,patient_score_range,0.1442562012484576,0.1328537424593624,0.1562204367004623,20000
+landmark_ge6_prior,DFCI,model,Relative-phase,released_log_score,-4.494995625438376,-4.5778088656834806,-4.412643485037089,20000
+landmark_ge6_prior,DFCI,model,Relative-phase,seven_origin_mean_log_score,-4.494995625438376,-4.5778088656834806,-4.412643485037089,20000
+landmark_ge6_prior,DFCI,model,Relative-phase,patient_score_range,4.118108672816097e-16,3.907570790320257e-16,4.33717031194508e-16,20000
+landmark_ge6_prior,DFCI,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.264954391458172,0.232102010571169,0.2983220274744647,20000
+landmark_ge6_prior,DFCI,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2624000376807105,0.2298401128125142,0.2955409566427805,20000
+landmark_ge6_prior,DFCI,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.1442562012484576,0.1328537424593624,0.1562204367004623,20000
+landmark_ge6_prior,DFCI,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2704269817244329,0.2382182001155885,0.3032563449688243,20000
+landmark_ge6_prior,DFCI,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2704269817244329,0.2382182001155885,0.3032563449688226,20000
+landmark_ge6_prior,DFCI,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,4.118108672816097e-16,3.907570790320257e-16,4.33717031194508e-16,20000
+landmark_ge6_prior,DFCI,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0054725902662609,-0.0055971626240193,0.0160305165187643,20000
+landmark_ge6_prior,DFCI,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0080269440437223,-0.0022363271059289,0.0179259009537265,20000
+landmark_ge6_prior,DFCI,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.1442562012484572,-0.1562204367004619,-0.132853742459362,20000
+landmark_ge6_prior,MSK,model,Calendar-blind,released_log_score,-4.458947998555533,-4.527622625669772,-4.392450750580899,20000
+landmark_ge6_prior,MSK,model,Calendar-blind,seven_origin_mean_log_score,-4.458947998555533,-4.527622625669772,-4.392450750580899,20000
+landmark_ge6_prior,MSK,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+landmark_ge6_prior,MSK,model,Absolute-phase,released_log_score,-4.256611711028922,-4.328707614937892,-4.187779269967572,20000
+landmark_ge6_prior,MSK,model,Absolute-phase,seven_origin_mean_log_score,-4.258609477532846,-4.330764176231383,-4.189767731859133,20000
+landmark_ge6_prior,MSK,model,Absolute-phase,patient_score_range,0.1801892469205609,0.1673236045990462,0.1942621090029862,20000
+landmark_ge6_prior,MSK,model,Relative-phase,released_log_score,-4.230353295728202,-4.301882234945543,-4.161451196733927,20000
+landmark_ge6_prior,MSK,model,Relative-phase,seven_origin_mean_log_score,-4.230353295728202,-4.301882234945542,-4.161451196733927,20000
+landmark_ge6_prior,MSK,model,Relative-phase,patient_score_range,3.969204124196605e-16,3.7775071165237743e-16,4.163052159182341e-16,20000
+landmark_ge6_prior,MSK,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2023362875266103,0.1741310790256171,0.2306640556572912,20000
+landmark_ge6_prior,MSK,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2003385210226866,0.1730736480089115,0.2281000843530618,20000
+landmark_ge6_prior,MSK,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.1801892469205609,0.1673236045990462,0.1942621090029862,20000
+landmark_ge6_prior,MSK,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2285947028273307,0.2026338730275867,0.2555625055179297,20000
+landmark_ge6_prior,MSK,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2285947028273307,0.2026338730275867,0.2555625055179297,20000
+landmark_ge6_prior,MSK,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.969204124196605e-16,3.7775071165237743e-16,4.163052159182341e-16,20000
+landmark_ge6_prior,MSK,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0262584153007203,0.0125189289963901,0.0404430750230828,20000
+landmark_ge6_prior,MSK,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.028256181804644,0.0157090048071236,0.0414067476038619,20000
+landmark_ge6_prior,MSK,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.1801892469205605,-0.1942621090029858,-0.1673236045990458,20000
+landmark_ge6_prior,UHN,model,Calendar-blind,released_log_score,-4.992881404204348,-5.382431899849888,-4.664306056218031,20000
+landmark_ge6_prior,UHN,model,Calendar-blind,seven_origin_mean_log_score,-4.992881404204348,-5.382431899849888,-4.664306056218032,20000
+landmark_ge6_prior,UHN,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+landmark_ge6_prior,UHN,model,Absolute-phase,released_log_score,-4.716866216583329,-5.127198078468855,-4.37605318921844,20000
+landmark_ge6_prior,UHN,model,Absolute-phase,seven_origin_mean_log_score,-4.715433808211423,-5.127676898358623,-4.375049372541762,20000
+landmark_ge6_prior,UHN,model,Absolute-phase,patient_score_range,0.095151197901169,0.0760248065404084,0.1187410204115564,20000
+landmark_ge6_prior,UHN,model,Relative-phase,released_log_score,-4.710231511116116,-5.118636199722135,-4.370025911104349,20000
+landmark_ge6_prior,UHN,model,Relative-phase,seven_origin_mean_log_score,-4.710231511116116,-5.118636199722135,-4.370025911104349,20000
+landmark_ge6_prior,UHN,model,Relative-phase,patient_score_range,3.926977541189862e-16,3.3404446225199676e-16,4.561541171416316e-16,20000
+landmark_ge6_prior,UHN,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2760151876210193,0.1718170643216682,0.3819887883759754,20000
+landmark_ge6_prior,UHN,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2774475959929248,0.1726726954728641,0.3834357801778685,20000
+landmark_ge6_prior,UHN,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.095151197901169,0.0760248065404084,0.1187410204115564,20000
+landmark_ge6_prior,UHN,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2826498930882319,0.1812988867237262,0.385423825274645,20000
+landmark_ge6_prior,UHN,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2826498930882319,0.1812988867237262,0.385423825274645,20000
+landmark_ge6_prior,UHN,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.926977541189862e-16,3.3404446225199676e-16,4.561541171416316e-16,20000
+landmark_ge6_prior,UHN,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0066347054672126,-0.019566880711688,0.0338409691772934,20000
+landmark_ge6_prior,UHN,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0052022970953071,-0.0209785455160075,0.0320586633411798,20000
+landmark_ge6_prior,UHN,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.0951511979011686,-0.118741020411556,-0.0760248065404081,20000
+landmark_ge6_prior,VICC,model,Calendar-blind,released_log_score,-4.1206920640802505,-4.199860606041781,-4.043332742375049,20000
+landmark_ge6_prior,VICC,model,Calendar-blind,seven_origin_mean_log_score,-4.1206920640802505,-4.199860606041781,-4.043332742375049,20000
+landmark_ge6_prior,VICC,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+landmark_ge6_prior,VICC,model,Absolute-phase,released_log_score,-3.9016615194720687,-3.987236716474305,-3.8172350752965216,20000
+landmark_ge6_prior,VICC,model,Absolute-phase,seven_origin_mean_log_score,-3.9009547995146336,-3.985830332240326,-3.817431151115226,20000
+landmark_ge6_prior,VICC,model,Absolute-phase,patient_score_range,0.114902887550404,0.1011616512115912,0.1307418304542355,20000
+landmark_ge6_prior,VICC,model,Relative-phase,released_log_score,-3.881585471369912,-3.966076074936896,-3.798296519389687,20000
+landmark_ge6_prior,VICC,model,Relative-phase,seven_origin_mean_log_score,-3.8815854713699127,-3.966076074936897,-3.798296519389687,20000
+landmark_ge6_prior,VICC,model,Relative-phase,patient_score_range,3.762355792279269e-16,3.421478427016782e-16,4.1270415103560247e-16,20000
+landmark_ge6_prior,VICC,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2190305446081817,0.1686919252810256,0.2710393412627614,20000
+landmark_ge6_prior,VICC,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2197372645656168,0.1704148908797922,0.2706915319933782,20000
+landmark_ge6_prior,VICC,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.114902887550404,0.1011616512115912,0.1307418304542355,20000
+landmark_ge6_prior,VICC,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2391065927103381,0.1907149850553102,0.2892401027266587,20000
+landmark_ge6_prior,VICC,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2391065927103377,0.190714985055311,0.2892401027266586,20000
+landmark_ge6_prior,VICC,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.762355792279269e-16,3.421478427016782e-16,4.1270415103560247e-16,20000
+landmark_ge6_prior,VICC,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0200760481021564,0.00642095211836,0.0342662289270307,20000
+landmark_ge6_prior,VICC,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.0193693281447209,0.0068624009326685,0.0325584049632255,20000
+landmark_ge6_prior,VICC,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.1149028875504036,-0.1307418304542351,-0.1011616512115908,20000
+landmark_ge6_prior,ALL,model,Calendar-blind,released_log_score,-4.584486018500735,-4.686014826819819,-4.496264169360704,20000
+landmark_ge6_prior,ALL,model,Calendar-blind,seven_origin_mean_log_score,-4.584486018500735,-4.68601482681982,-4.496264169360703,20000
+landmark_ge6_prior,ALL,model,Calendar-blind,patient_score_range,0.0,0.0,0.0,20000
+landmark_ge6_prior,ALL,model,Absolute-phase,released_log_score,-4.34390191569724,-4.450634065926196,-4.252150296340045,20000
+landmark_ge6_prior,ALL,model,Absolute-phase,seven_origin_mean_log_score,-4.34450516368525,-4.451496225915227,-4.252609013342815,20000
+landmark_ge6_prior,ALL,model,Absolute-phase,patient_score_range,0.1336248834051479,0.1260780253709212,0.1419311422216179,20000
+landmark_ge6_prior,ALL,model,Relative-phase,released_log_score,-4.329291475913152,-4.435526407555376,-4.237850467850493,20000
+landmark_ge6_prior,ALL,model,Relative-phase,seven_origin_mean_log_score,-4.329291475913152,-4.435526407555377,-4.237850467850493,20000
+landmark_ge6_prior,ALL,model,Relative-phase,patient_score_range,3.944161532620458e-16,3.776835261722385e-16,4.123500842356255e-16,20000
+landmark_ge6_prior,ALL,paired_contrast,Absolute-phase minus Calendar-blind,released_log_score,0.2405841028034956,0.2098676061001537,0.2715816858736447,20000
+landmark_ge6_prior,ALL,paired_contrast,Absolute-phase minus Calendar-blind,seven_origin_mean_log_score,0.2399808548154851,0.2094947995904769,0.2706567970391516,20000
+landmark_ge6_prior,ALL,paired_contrast,Absolute-phase minus Calendar-blind,patient_score_range,0.1336248834051479,0.1260780253709212,0.1419311422216179,20000
+landmark_ge6_prior,ALL,paired_contrast,Relative-phase minus Calendar-blind,released_log_score,0.2551945425875832,0.225364308292825,0.2853478517753152,20000
+landmark_ge6_prior,ALL,paired_contrast,Relative-phase minus Calendar-blind,seven_origin_mean_log_score,0.2551945425875832,0.225364308292825,0.2853478517753152,20000
+landmark_ge6_prior,ALL,paired_contrast,Relative-phase minus Calendar-blind,patient_score_range,3.944161532620458e-16,3.776835261722385e-16,4.123500842356255e-16,20000
+landmark_ge6_prior,ALL,paired_contrast,Relative-phase minus Absolute-phase,released_log_score,0.0146104397840876,0.0063611978797667,0.0227016937669042,20000
+landmark_ge6_prior,ALL,paired_contrast,Relative-phase minus Absolute-phase,seven_origin_mean_log_score,0.015213687772098,0.0071886793133317,0.0229478146817783,20000
+landmark_ge6_prior,ALL,paired_contrast,Relative-phase minus Absolute-phase,patient_score_range,-0.1336248834051475,-0.1419311422216176,-0.1260780253709208,20000

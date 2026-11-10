@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calendar-shift-audit"
+version = "1.0.0"
+description = "Auditing and enforcing calendar-shift invariance in clinical prediction models."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Wenhao Maxwell Ren"},
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "pandas>=2.0",
+  "matplotlib>=3.7",
+  "torch>=2.1",
+  "xgboost>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4",
+]
+parquet = [
+  "pyarrow>=14.0",
+]
+
+[project.scripts]
+calendar-shift-audit = "calendar_shift_audit.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+calendar_shift_audit = ["protocols.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

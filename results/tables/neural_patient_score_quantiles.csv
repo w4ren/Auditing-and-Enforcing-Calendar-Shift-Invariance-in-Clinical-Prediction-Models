@@ -1,0 +1,41 @@
+aggregation,site,quantile,score_range_nats,geometric_mean_best_worst_ratio,patients
+seed-averaged patient; equal patient,DFCI,0.0,0.0297034624401925,1.0301490107823124,682
+seed-averaged patient; equal patient,DFCI,0.05,0.0425470420545606,1.043465141963266,682
+seed-averaged patient; equal patient,DFCI,0.25,0.0635225463463808,1.065583510545557,682
+seed-averaged patient; equal patient,DFCI,0.5,0.084351880285088,1.088011676316909,682
+seed-averaged patient; equal patient,DFCI,0.75,0.1278201411503458,1.1363486019636158,682
+seed-averaged patient; equal patient,DFCI,0.9,0.1846148479755026,1.2027551073420757,682
+seed-averaged patient; equal patient,DFCI,0.95,0.2471192450956956,1.280331776961127,682
+seed-averaged patient; equal patient,DFCI,1.0,0.5089241588645145,1.6635005695627354,682
+seed-averaged patient; equal patient,MSK,0.0,0.0411129507337573,1.0419697901514238,864
+seed-averaged patient; equal patient,MSK,0.05,0.0711076040064742,1.073696753725055,864
+seed-averaged patient; equal patient,MSK,0.25,0.0911185342874565,1.0953988398843524,864
+seed-averaged patient; equal patient,MSK,0.5,0.1134390253725688,1.120123587691645,864
+seed-averaged patient; equal patient,MSK,0.75,0.1530260096612737,1.16535528904489,864
+seed-averaged patient; equal patient,MSK,0.9,0.2213788436799805,1.2477960606834395,864
+seed-averaged patient; equal patient,MSK,0.95,0.2741933519923407,1.315469126227326,864
+seed-averaged patient; equal patient,MSK,1.0,0.693767670880815,2.001241365729621,864
+seed-averaged patient; equal patient,UHN,0.0,0.022110117393295,1.0223563574893062,55
+seed-averaged patient; equal patient,UHN,0.05,0.034308195142725,1.034903509818317,55
+seed-averaged patient; equal patient,UHN,0.25,0.0488564833867008,1.0500696374872585,55
+seed-averaged patient; equal patient,UHN,0.5,0.0601822866356422,1.0620301227996771,55
+seed-averaged patient; equal patient,UHN,0.75,0.0790278927008469,1.0822345080927085,55
+seed-averaged patient; equal patient,UHN,0.9,0.0978327743971526,1.1027783569128378,55
+seed-averaged patient; equal patient,UHN,0.95,0.104313859424385,1.1099487681334934,55
+seed-averaged patient; equal patient,UHN,1.0,0.1561892604266631,1.169047436570472,55
+seed-averaged patient; equal patient,VICC,0.0,0.035630863755819,1.0362732498647271,224
+seed-averaged patient; equal patient,VICC,0.05,0.045382835767936,1.0464283934521388,224
+seed-averaged patient; equal patient,VICC,0.25,0.0605028645870708,1.0623706408191682,224
+seed-averaged patient; equal patient,VICC,0.5,0.0761127044757014,1.0790841849214157,224
+seed-averaged patient; equal patient,VICC,0.75,0.0922675950314271,1.096658243117092,224
+seed-averaged patient; equal patient,VICC,0.9,0.117618816578318,1.124815268705793,224
+seed-averaged patient; equal patient,VICC,0.95,0.1505245042397522,1.162443789555457,224
+seed-averaged patient; equal patient,VICC,1.0,0.281517761131268,1.325139532089688,224
+seed-averaged patient; pooled equal patient,ALL,0.0,0.022110117393295,1.0223563574893062,1825
+seed-averaged patient; pooled equal patient,ALL,0.05,0.0481653479793851,1.049344147915288,1825
+seed-averaged patient; pooled equal patient,ALL,0.25,0.073652511089106,1.0764326920760316,1825
+seed-averaged patient; pooled equal patient,ALL,0.5,0.0980025526699484,1.1029656006120572,1825
+seed-averaged patient; pooled equal patient,ALL,0.75,0.1358034411811034,1.1454567218454972,1825
+seed-averaged patient; pooled equal patient,ALL,0.9,0.1901333917927506,1.2094109123877574,1825
+seed-averaged patient; pooled equal patient,ALL,0.95,0.2537199767880871,1.2888108567776622,1825
+seed-averaged patient; pooled equal patient,ALL,1.0,0.693767670880815,2.001241365729621,1825

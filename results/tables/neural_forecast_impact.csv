@@ -1,0 +1,81 @@
+model,scope,site,metric,estimate,ci_lower,ci_upper,patients
+Individual Absolute models (15 seeds),hospital,DFCI,p7_range,0.0011798691160764,0.000981040058292,0.0013858866096391,682
+Individual Absolute models (15 seeds),hospital,DFCI,p7_range_ge_001,0.0,0.0,0.0,682
+Individual Absolute models (15 seeds),hospital,DFCI,p7_range_ge_005,0.0,0.0,0.0,682
+Individual Absolute models (15 seeds),hospital,DFCI,p7_range_ge_010,0.0,0.0,0.0,682
+Individual Absolute models (15 seeds),hospital,DFCI,mode_changed_any_offset,0.3167122632241025,0.2989289615576482,0.3353009613028541,682
+Individual Absolute models (15 seeds),hospital,DFCI,mode_changed_typical_nonzero,0.1528958248266355,0.1429085455940355,0.1634202788467977,682
+Individual Absolute models (15 seeds),hospital,DFCI,mode_day_range,1.3016889610095594,1.2007766103356994,1.4063793022000204,682
+Individual Absolute models (15 seeds),hospital,DFCI,near_tie_any_offset,0.0,0.0,0.0,682
+Individual Absolute models (15 seeds),hospital,MSK,p7_range,0.0050766489964218,0.0045750573177179,0.0055779424123095,864
+Individual Absolute models (15 seeds),hospital,MSK,p7_range_ge_001,0.0484399653184115,0.0151070656099092,0.0900049772317062,864
+Individual Absolute models (15 seeds),hospital,MSK,p7_range_ge_005,0.0,0.0,0.0,864
+Individual Absolute models (15 seeds),hospital,MSK,p7_range_ge_010,0.0,0.0,0.0,864
+Individual Absolute models (15 seeds),hospital,MSK,mode_changed_any_offset,0.3901632298455851,0.3689274099616692,0.4119485411608298,864
+Individual Absolute models (15 seeds),hospital,MSK,mode_changed_typical_nonzero,0.1915664616311588,0.1793533112173142,0.2039528945266203,864
+Individual Absolute models (15 seeds),hospital,MSK,mode_day_range,1.942369977651563,1.7781239059195064,2.1299393975085685,864
+Individual Absolute models (15 seeds),hospital,MSK,near_tie_any_offset,0.0,0.0,0.0,864
+Individual Absolute models (15 seeds),hospital,UHN,p7_range,0.0010323024874201,0.0009107086110394,0.0011545098291006,55
+Individual Absolute models (15 seeds),hospital,UHN,p7_range_ge_001,0.0,0.0,0.0,55
+Individual Absolute models (15 seeds),hospital,UHN,p7_range_ge_005,0.0,0.0,0.0,55
+Individual Absolute models (15 seeds),hospital,UHN,p7_range_ge_010,0.0,0.0,0.0,55
+Individual Absolute models (15 seeds),hospital,UHN,mode_changed_any_offset,0.2937814004510355,0.2532872212124262,0.3354900019043383,55
+Individual Absolute models (15 seeds),hospital,UHN,mode_changed_typical_nonzero,0.1369393470364016,0.1163923592187057,0.1582713870371489,55
+Individual Absolute models (15 seeds),hospital,UHN,mode_day_range,1.2681016184714655,1.0472517641002752,1.5195437902536977,55
+Individual Absolute models (15 seeds),hospital,UHN,near_tie_any_offset,0.0,0.0,0.0,55
+Individual Absolute models (15 seeds),hospital,VICC,p7_range,0.0015103432221793,0.0012413647713779,0.0018171912741763,224
+Individual Absolute models (15 seeds),hospital,VICC,p7_range_ge_001,0.0,0.0,0.0,224
+Individual Absolute models (15 seeds),hospital,VICC,p7_range_ge_005,0.0,0.0,0.0,224
+Individual Absolute models (15 seeds),hospital,VICC,p7_range_ge_010,0.0,0.0,0.0,224
+Individual Absolute models (15 seeds),hospital,VICC,mode_changed_any_offset,0.3128057840568478,0.2854457718809159,0.3402511352446141,224
+Individual Absolute models (15 seeds),hospital,VICC,mode_changed_typical_nonzero,0.1475166111536898,0.1322370240753213,0.1632166048318333,224
+Individual Absolute models (15 seeds),hospital,VICC,mode_day_range,1.1862067761472883,1.0429884137293195,1.331408453121094,224
+Individual Absolute models (15 seeds),hospital,VICC,near_tie_any_offset,0.0,0.0,0.0,224
+Individual Absolute models (15 seeds),overall,ALL,p7_range,0.0021997909555244,0.0020575229458904,0.0023352489726392,1825
+Individual Absolute models (15 seeds),overall,ALL,p7_range_ge_001,0.0121099913296028,0.0037767664024773,0.0225012443079265,1825
+Individual Absolute models (15 seeds),overall,ALL,p7_range_ge_005,0.0,0.0,0.0,1825
+Individual Absolute models (15 seeds),overall,ALL,p7_range_ge_010,0.0,0.0,0.0,1825
+Individual Absolute models (15 seeds),overall,ALL,mode_changed_any_offset,0.3283656693943927,0.3152190854409456,0.3414551411314773,1825
+Individual Absolute models (15 seeds),overall,ALL,mode_changed_typical_nonzero,0.1572295611619714,0.1501475743208044,0.1642995682469953,1825
+Individual Absolute models (15 seeds),overall,ALL,mode_day_range,1.4245918333199692,1.341336488564442,1.5152263645393995,1825
+Individual Absolute models (15 seeds),overall,ALL,near_tie_any_offset,0.0,0.0,0.0,1825
+15-model Absolute probability ensemble,hospital,DFCI,p7_range,0.0010427470096678,0.0010149396657747,0.0010704734266933,682
+15-model Absolute probability ensemble,hospital,DFCI,p7_range_ge_001,0.0,0.0,0.0,682
+15-model Absolute probability ensemble,hospital,DFCI,p7_range_ge_005,0.0,0.0,0.0,682
+15-model Absolute probability ensemble,hospital,DFCI,p7_range_ge_010,0.0,0.0,0.0,682
+15-model Absolute probability ensemble,hospital,DFCI,mode_changed_any_offset,0.2332075327047467,0.221287866034103,0.245356084114438,682
+15-model Absolute probability ensemble,hospital,DFCI,mode_changed_typical_nonzero,0.1090761658833903,0.1023510568930139,0.1160658767719363,682
+15-model Absolute probability ensemble,hospital,DFCI,mode_day_range,1.2452244479833965,1.029867660184145,1.5161245386135185,682
+15-model Absolute probability ensemble,hospital,DFCI,near_tie_any_offset,0.0,0.0,0.0,682
+15-model Absolute probability ensemble,hospital,MSK,p7_range,0.0038121494450397,0.0037447416880044,0.0038776411126468,864
+15-model Absolute probability ensemble,hospital,MSK,p7_range_ge_001,0.0,0.0,0.0,864
+15-model Absolute probability ensemble,hospital,MSK,p7_range_ge_005,0.0,0.0,0.0,864
+15-model Absolute probability ensemble,hospital,MSK,p7_range_ge_010,0.0,0.0,0.0,864
+15-model Absolute probability ensemble,hospital,MSK,mode_changed_any_offset,0.3075428779031127,0.2960449419125761,0.3189875754720638,864
+15-model Absolute probability ensemble,hospital,MSK,mode_changed_typical_nonzero,0.144745453467998,0.138084476705186,0.1513955455307728,864
+15-model Absolute probability ensemble,hospital,MSK,mode_day_range,1.8785075663578497,1.613503508362197,2.1810935300349654,864
+15-model Absolute probability ensemble,hospital,MSK,near_tie_any_offset,0.0,0.0,0.0,864
+15-model Absolute probability ensemble,hospital,UHN,p7_range,0.0009606410642507,0.0009014569049127,0.0010197224747598,55
+15-model Absolute probability ensemble,hospital,UHN,p7_range_ge_001,0.0,0.0,0.0,55
+15-model Absolute probability ensemble,hospital,UHN,p7_range_ge_005,0.0,0.0,0.0,55
+15-model Absolute probability ensemble,hospital,UHN,p7_range_ge_010,0.0,0.0,0.0,55
+15-model Absolute probability ensemble,hospital,UHN,mode_changed_any_offset,0.2244491882842283,0.1888718113406167,0.2616287936935996,55
+15-model Absolute probability ensemble,hospital,UHN,mode_changed_typical_nonzero,0.0982669247712503,0.0795496412618139,0.1184658429354,55
+15-model Absolute probability ensemble,hospital,UHN,mode_day_range,0.9833726855335228,0.7612695251883386,1.2431135883642226,55
+15-model Absolute probability ensemble,hospital,UHN,near_tie_any_offset,0.0,0.0,0.0,55
+15-model Absolute probability ensemble,hospital,VICC,p7_range,0.0008440830258586,0.000816950918252,0.000871567372872,224
+15-model Absolute probability ensemble,hospital,VICC,p7_range_ge_001,0.0,0.0,0.0,224
+15-model Absolute probability ensemble,hospital,VICC,p7_range_ge_005,0.0,0.0,0.0,224
+15-model Absolute probability ensemble,hospital,VICC,p7_range_ge_010,0.0,0.0,0.0,224
+15-model Absolute probability ensemble,hospital,VICC,mode_changed_any_offset,0.2027576167843123,0.1817240581098745,0.2239051324998999,224
+15-model Absolute probability ensemble,hospital,VICC,mode_changed_typical_nonzero,0.0801979065479388,0.0707266235555409,0.0900226895478274,224
+15-model Absolute probability ensemble,hospital,VICC,mode_day_range,0.8603183063693977,0.676206660106097,1.0916559465646751,224
+15-model Absolute probability ensemble,hospital,VICC,near_tie_any_offset,0.0,0.0,0.0,224
+15-model Absolute probability ensemble,overall,ALL,p7_range,0.0016649051362042,0.0016402763269251,0.0016891891038101,1825
+15-model Absolute probability ensemble,overall,ALL,p7_range_ge_001,0.0,0.0,0.0,1825
+15-model Absolute probability ensemble,overall,ALL,p7_range_ge_005,0.0,0.0,0.0,1825
+15-model Absolute probability ensemble,overall,ALL,p7_range_ge_010,0.0,0.0,0.0,1825
+15-model Absolute probability ensemble,overall,ALL,mode_changed_any_offset,0.2419893039191,0.2308437011792537,0.2535208783467298,1825
+15-model Absolute probability ensemble,overall,ALL,mode_changed_typical_nonzero,0.1080716126676444,0.102372318535562,0.1142109648475222,1825
+15-model Absolute probability ensemble,overall,ALL,mode_day_range,1.2418557515610416,1.124811188561319,1.3727428836676123,1825
+15-model Absolute probability ensemble,overall,ALL,near_tie_any_offset,0.0,0.0,0.0,1825

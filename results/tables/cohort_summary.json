@@ -1,0 +1,345 @@
+{
+  "source_release": "AACR Project GENIE Biopharma Collaborative (BPC) public v2.0",
+  "nsclc": {
+    "counts": {
+      "by_site": {
+        "DFCI": {
+          "completed_intervals": 15529,
+          "intervals": 15984,
+          "patients": 682,
+          "terminal_intervals": 455
+        },
+        "MSK": {
+          "completed_intervals": 24831,
+          "intervals": 25428,
+          "patients": 864,
+          "terminal_intervals": 597
+        },
+        "UHN": {
+          "completed_intervals": 1994,
+          "intervals": 2028,
+          "patients": 55,
+          "terminal_intervals": 34
+        },
+        "VICC": {
+          "completed_intervals": 5202,
+          "intervals": 5380,
+          "patients": 224,
+          "terminal_intervals": 178
+        }
+      },
+      "completed_intervals": 47556,
+      "intervals": 48820,
+      "patients": 1825,
+      "terminal_intervals": 1264
+    },
+    "exclusions": [
+      {
+        "excluded_patients": 21,
+        "institution": "ALL",
+        "release_patients": 1846,
+        "retained_patients": 1825,
+        "sequential_flow": [
+          {
+            "before": 1846,
+            "excluded": 0,
+            "reason": "unknown_institution",
+            "remaining": 1846
+          },
+          {
+            "before": 1846,
+            "excluded": 3,
+            "reason": "no_valid_assessment_day",
+            "remaining": 1843
+          },
+          {
+            "before": 1843,
+            "excluded": 18,
+            "reason": "only_one_distinct_assessment_day",
+            "remaining": 1825
+          }
+        ]
+      },
+      {
+        "excluded_patients": 14,
+        "institution": "DFCI",
+        "release_patients": 696,
+        "retained_patients": 682,
+        "sequential_flow": [
+          {
+            "before": 696,
+            "excluded": 0,
+            "reason": "unknown_institution",
+            "remaining": 696
+          },
+          {
+            "before": 696,
+            "excluded": 2,
+            "reason": "no_valid_assessment_day",
+            "remaining": 694
+          },
+          {
+            "before": 694,
+            "excluded": 12,
+            "reason": "only_one_distinct_assessment_day",
+            "remaining": 682
+          }
+        ]
+      },
+      {
+        "excluded_patients": 5,
+        "institution": "MSK",
+        "release_patients": 869,
+        "retained_patients": 864,
+        "sequential_flow": [
+          {
+            "before": 869,
+            "excluded": 0,
+            "reason": "unknown_institution",
+            "remaining": 869
+          },
+          {
+            "before": 869,
+            "excluded": 1,
+            "reason": "no_valid_assessment_day",
+            "remaining": 868
+          },
+          {
+            "before": 868,
+            "excluded": 4,
+            "reason": "only_one_distinct_assessment_day",
+            "remaining": 864
+          }
+        ]
+      },
+      {
+        "excluded_patients": 0,
+        "institution": "UHN",
+        "release_patients": 55,
+        "retained_patients": 55,
+        "sequential_flow": [
+          {
+            "before": 55,
+            "excluded": 0,
+            "reason": "unknown_institution",
+            "remaining": 55
+          },
+          {
+            "before": 55,
+            "excluded": 0,
+            "reason": "no_valid_assessment_day",
+            "remaining": 55
+          },
+          {
+            "before": 55,
+            "excluded": 0,
+            "reason": "only_one_distinct_assessment_day",
+            "remaining": 55
+          }
+        ]
+      },
+      {
+        "excluded_patients": 2,
+        "institution": "VICC",
+        "release_patients": 226,
+        "retained_patients": 224,
+        "sequential_flow": [
+          {
+            "before": 226,
+            "excluded": 0,
+            "reason": "unknown_institution",
+            "remaining": 226
+          },
+          {
+            "before": 226,
+            "excluded": 0,
+            "reason": "no_valid_assessment_day",
+            "remaining": 226
+          },
+          {
+            "before": 226,
+            "excluded": 2,
+            "reason": "only_one_distinct_assessment_day",
+            "remaining": 224
+          }
+        ]
+      }
+    ],
+    "source_row_processing": {
+      "assessment_identifiers_outside_release_patient_table": 0,
+      "rows_with_noninteger_day_rounded": 0,
+      "rows_without_valid_patient_key_or_numeric_finite_day": 0,
+      "same_patient_day_rows_collapsed": 10611,
+      "source_rows": 60010,
+      "unique_release_patient_assessment_days": 49399,
+      "valid_assessment_rows_outside_release_patient_table": 0
+    },
+    "terminal_status_counts": {
+      "boundary_at_or_before_last_assessment": 561,
+      "positive_terminal_interval": 1264
+    }
+  },
+  "crc": {
+    "counts": {
+      "by_site": {
+        "DFCI": {
+          "completed_intervals": 16241,
+          "intervals": 16562,
+          "patients": 557,
+          "terminal_intervals": 321
+        },
+        "MSK": {
+          "completed_intervals": 24382,
+          "intervals": 24879,
+          "patients": 689,
+          "terminal_intervals": 497
+        },
+        "VICC": {
+          "completed_intervals": 6825,
+          "intervals": 6976,
+          "patients": 225,
+          "terminal_intervals": 151
+        }
+      },
+      "completed_intervals": 47448,
+      "intervals": 48417,
+      "patients": 1471,
+      "terminal_intervals": 969
+    },
+    "exclusions": [
+      {
+        "excluded_patients": 14,
+        "institution": "ALL",
+        "release_patients": 1485,
+        "retained_patients": 1471,
+        "sequential_flow": [
+          {
+            "before": 1485,
+            "excluded": 0,
+            "reason": "unknown_institution",
+            "remaining": 1485
+          },
+          {
+            "before": 1485,
+            "excluded": 1,
+            "reason": "no_valid_assessment_day",
+            "remaining": 1484
+          },
+          {
+            "before": 1484,
+            "excluded": 13,
+            "reason": "only_one_distinct_assessment_day",
+            "remaining": 1471
+          }
+        ]
+      },
+      {
+        "excluded_patients": 7,
+        "institution": "DFCI",
+        "release_patients": 564,
+        "retained_patients": 557,
+        "sequential_flow": [
+          {
+            "before": 564,
+            "excluded": 0,
+            "reason": "unknown_institution",
+            "remaining": 564
+          },
+          {
+            "before": 564,
+            "excluded": 1,
+            "reason": "no_valid_assessment_day",
+            "remaining": 563
+          },
+          {
+            "before": 563,
+            "excluded": 6,
+            "reason": "only_one_distinct_assessment_day",
+            "remaining": 557
+          }
+        ]
+      },
+      {
+        "excluded_patients": 7,
+        "institution": "MSK",
+        "release_patients": 696,
+        "retained_patients": 689,
+        "sequential_flow": [
+          {
+            "before": 696,
+            "excluded": 0,
+            "reason": "unknown_institution",
+            "remaining": 696
+          },
+          {
+            "before": 696,
+            "excluded": 0,
+            "reason": "no_valid_assessment_day",
+            "remaining": 696
+          },
+          {
+            "before": 696,
+            "excluded": 7,
+            "reason": "only_one_distinct_assessment_day",
+            "remaining": 689
+          }
+        ]
+      },
+      {
+        "excluded_patients": 0,
+        "institution": "VICC",
+        "release_patients": 225,
+        "retained_patients": 225,
+        "sequential_flow": [
+          {
+            "before": 225,
+            "excluded": 0,
+            "reason": "unknown_institution",
+            "remaining": 225
+          },
+          {
+            "before": 225,
+            "excluded": 0,
+            "reason": "no_valid_assessment_day",
+            "remaining": 225
+          },
+          {
+            "before": 225,
+            "excluded": 0,
+            "reason": "only_one_distinct_assessment_day",
+            "remaining": 225
+          }
+        ]
+      }
+    ],
+    "source_row_processing": {
+      "assessment_identifiers_outside_release_patient_table": 0,
+      "rows_with_noninteger_day_rounded": 0,
+      "rows_without_valid_patient_key_or_numeric_finite_day": 0,
+      "same_patient_day_rows_collapsed": 5492,
+      "source_rows": 54424,
+      "unique_release_patient_assessment_days": 48932,
+      "valid_assessment_rows_outside_release_patient_table": 0
+    },
+    "terminal_status_counts": {
+      "boundary_at_or_before_last_assessment": 502,
+      "positive_terminal_interval": 969
+    }
+  },
+  "protocol": {
+    "entry": "Released patient, known institution, at least two distinct finite numeric imaging/medical-oncology assessment days",
+    "days": "Round to nearest integer; collapse union by patient/day; preserve entire observed history",
+    "terminal": "Append only if min(available last-known-alive,death)>last assessment day; absence of terminal row does not exclude a patient",
+    "clinical_eligibility_filters": "none",
+    "frame_columns": [
+      "record_id",
+      "interval_start",
+      "interval_stop",
+      "exposure_days",
+      "event",
+      "order_in_patient",
+      "start_is_imaging",
+      "institution"
+    ]
+  }
+}

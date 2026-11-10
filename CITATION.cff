@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying ML4H 2026 Findings paper."
+title: "Auditing and Enforcing Calendar-Shift Invariance in Clinical Prediction Models"
+type: software
+authors:
+  - given-names: "Wenhao Maxwell"
+    family-names: "Ren"
+repository-code: "https://github.com/w4ren/Auditing-and-Enforcing-Calendar-Shift-Invariance-in-Clinical-Prediction-Models"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Auditing and Enforcing Calendar-Shift Invariance in Clinical Prediction Models"
+  authors:
+    - given-names: "Wenhao Maxwell"
+      family-names: "Ren"
+    - given-names: "Everest"
+      family-names: "Yang"
+    - given-names: "Valarie"
+      family-names: "Tran"
+    - given-names: "Igor"
+      family-names: "Shuryak"
+  collection-title: "Machine Learning for Health (ML4H) Findings Track"
+  year: 2026

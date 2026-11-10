@@ -1,0 +1,137 @@
+{
+  "study": "Auditing and Enforcing Calendar-Shift Invariance in Clinical Prediction Models",
+  "audit_shifts": [0, 1, 2, 3, 4, 5, 6],
+  "cohorts": {
+    "nsclc": {
+      "release": "AACR Project GENIE BPC NSCLC v2.0 public",
+      "institutions": ["DFCI", "MSK", "UHN", "VICC"],
+      "released_patients": 1846,
+      "excluded_no_valid_day": 3,
+      "excluded_single_day": 18,
+      "retained_patients": 1825,
+      "completed_gaps": 47556,
+      "terminal_intervals": 1264
+    },
+    "crc": {
+      "release": "AACR Project GENIE BPC CRC v2.0 public",
+      "institutions": ["DFCI", "MSK", "VICC"],
+      "released_patients": 1485,
+      "excluded_no_valid_day": 1,
+      "excluded_single_day": 13,
+      "retained_patients": 1471,
+      "completed_gaps": 47448,
+      "terminal_intervals": 969
+    }
+  },
+  "neural_audit": {
+    "arms": [
+      "Calendar-blind",
+      "Absolute-phase",
+      "Relative-phase",
+      "Flexible-elapsed"
+    ],
+    "n_features": 19,
+    "baseline_covariate_dim": 8,
+    "sequence_history_dim": 11,
+    "hidden_dim": 64,
+    "embed_dim": 16,
+    "explicit_weeks": 60,
+    "explicit_days": 420,
+    "active_parameters": 4356,
+    "shared_encoder_parameters": 2320,
+    "shared_timing_parameters": 1021,
+    "model_specific_parameters": 1015,
+    "adapter_widths": {
+      "Calendar-blind": 56,
+      "Relative-phase": 42,
+      "Flexible-elapsed": 49
+    },
+    "l2_weight_decay": 0.0001,
+    "dropout": 0.0,
+    "drift_temperature": 1.0,
+    "epochs": 400,
+    "learning_rate": 0.02,
+    "patience": 40,
+    "validation_fraction": 0.2,
+    "seeds": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+    "ensemble_sizes": [1, 3, 5, 7, 15]
+  },
+  "xalign": {
+    "arms": [
+      "X-base",
+      "X-align",
+      "X-align-rot1",
+      "X-align-rot2",
+      "X-align-rot3",
+      "X-align-rot4",
+      "X-align-rot5",
+      "X-align-rot6"
+    ],
+    "common8_features": [
+      "start_is_imaging",
+      "order_index",
+      "log_prev_gap",
+      "log_mean_prior_gap",
+      "prior_count",
+      "prev_gap_is_week_multiple",
+      "share_prior_week_multiple",
+      "log1p_time_since_start"
+    ],
+    "candidate_day_features": ["u", "u_mod_7", "log_u"],
+    "horizon_days": 120,
+    "xgboost": {
+      "eta": 0.05,
+      "max_depth": 4,
+      "min_child_weight": 20.0,
+      "reg_lambda": 10.0,
+      "subsample": 1.0,
+      "colsample_bytree": 1.0,
+      "num_boost_round": 400
+    },
+    "phase_weight_mode": "sqrt",
+    "phase_smooth": 10.0,
+    "phase_ridge": 0.1,
+    "hospital_floor_nats": -0.02
+  },
+  "glucose_audit": {
+    "low_threshold_mgdl": 70.0,
+    "high_threshold_mgdl": 180.0,
+    "horizon_steps": 12,
+    "step_minutes": 5,
+    "colas": {
+      "held_out_ood_patients": 21,
+      "held_out_ood_windows": 9168,
+      "secondary_in_split_patients": 176,
+      "secondary_in_split_windows": 19192,
+      "seeds": [10, 11, 12],
+      "released_synthetic_origin": "2012-01-01",
+      "canonical_relative_origin": "2000-01-03",
+      "random_anchor_offsets": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    "cgmacros": {
+      "participants": 44,
+      "windows": 430,
+      "seeds": [3, 4, 5],
+      "relative_origin": "2000-01-03"
+    }
+  },
+  "bootstrap": {
+    "draws": 20000,
+    "alpha_ordinary": 0.05,
+    "alpha_rotation_fwer": 0.008333333333333333,
+    "seeds": {
+      "neural": 20260828,
+      "nsclc_boosted": 20260819,
+      "crc_boosted": 20260820,
+      "cgmacros": 20260913,
+      "colas": 20260909
+    }
+  },
+  "negative_control": {
+    "training_sizes": [200, 2000, 20000],
+    "replicates": 200,
+    "seed": 2026100801,
+    "dirichlet_alpha": 0.5,
+    "target_pmf": [0.4, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+  }
+}
